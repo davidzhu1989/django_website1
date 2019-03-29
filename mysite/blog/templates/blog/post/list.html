@@ -1,0 +1,19 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}My Blog {% endblock %}
+
+{% block content %}
+    <h1>My blog</h1>
+    {% for post in posts %}
+        <h2>
+            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="date">
+            Published {{ post.publish }} by {{ post.author }}
+        </p>
+        {{ post.body | truncatewords:30|linebreaks }}
+        No data?
+    {% endfor %}
+    {% include 'pagination.html' with page=page_obj %}
+{#    这里的with也能重新指定了变量名称以让分页模板正确接收到该对象#}
+{% endblock %}
