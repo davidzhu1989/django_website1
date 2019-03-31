@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# 老兄，这个没有有写啊，真的坑哦
+
+SITE_ID = 1
 
 # Application definition
 
