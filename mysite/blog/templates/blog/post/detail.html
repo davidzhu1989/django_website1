@@ -9,7 +9,9 @@
     <p class="date">
         Published {{ post.publish }} by {{ post.author }}
     </p>
-    {{ post.body | linebreaks }}
+{#    {{ post.body | linebreaks }}#}
+{#引入了Markdown 所以要修改#}
+        {{ post.body | markdown }}
     <p>
         <a href="{% url "blog:post_share"  post.id %}">Share this post</a>
     </p>

@@ -1,0 +1,9 @@
+{#在侧边栏显示最新发布的文章的自定义标签#}
+<ul>
+    {% for post in latest_posts %}
+            <li>
+                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+            </li>
+    {% endfor %}
+
+</ul>
