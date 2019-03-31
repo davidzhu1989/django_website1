@@ -8,12 +8,25 @@
         <h2>
             <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
         </h2>
+        {% if tag %}
+            <h2>Posts tagged with "{{ tag.name }}"</h2>
+        {% endif %}
+        <p class="tag">
+            Tags:
+            {% for tag in post.tags.all %}
+                <a href="{% url "blog:post_list_by_tag" tag.slug %}">{{ tag.name }}</a>
+                {% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+{# join的方法跟字符串的join()很相似#}
         <p class="date">
             Published {{ post.publish }} by {{ post.author }}
         </p>
         {{ post.body | truncatewords:30|linebreaks }}
         No data?
     {% endfor %}
-    {% include 'pagination.html' with page=page_obj %}
+    {% include "pagination.html" with page=posts %}
+{#    {% include 'pagination.html' with page=page_obj %}#}
+{#    由于 CBV 改为 FBV， 因此参数也要修改#}
 {#    这里的with也能重新指定了变量名称以让分页模板正确接收到该对象#}
 {% endblock %}
