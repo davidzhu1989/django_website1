@@ -26,6 +26,7 @@
         </p>
 {#        {{ post.body | truncatewords:30|linebreaks }}#}
         {{ post.body | markdown | truncatewords_html:30 }}
+{#        处理未关闭的HTML的标签#}
         No data?
     {% endfor %}
     {% include "pagination.html" with page=posts %}
