@@ -22,7 +22,6 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
 
-
     objects = models.Manager()   # 默认的管理器
     published = PublishedManager()   # 系统自带的管理器
     tags = TaggableManager()
