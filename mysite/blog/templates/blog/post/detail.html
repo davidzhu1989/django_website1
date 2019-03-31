@@ -1,7 +1,8 @@
+{% load blog_tags %}
+
 {% extends 'blog/base.html' %}
-{% block title %}
-{{ post.title }}
-{% endblock %}
+
+{% block title %} {{ post.title }} {% endblock %}
 
 {% block content %}
     <h1>{{ post.title }}</h1>
