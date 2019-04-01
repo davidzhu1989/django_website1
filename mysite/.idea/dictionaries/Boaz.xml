@@ -2,6 +2,7 @@
   <dictionary name="Boaz">
     <words>
       <w>changefreq</w>
+      <w>postgresql</w>
     </words>
   </dictionary>
 </component>
