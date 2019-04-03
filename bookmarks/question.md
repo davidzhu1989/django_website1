@@ -13,4 +13,17 @@
 
 >wrapper()
 
-> Django 如何添加用户的~
+> Django 如何添加用户的~ **(solved)**
+
+> novalidate 的意思是
+
+novalidate 属性规定当提交表单时不对其进行验证。
+
+> 关于url栏的问题
+
+
+```python
+path("reset/<uidb64>/<token>/",)
+```
+把uidb64 写出了uid64，导致系统500，
+说明变量自己跟系统一致的重要性
