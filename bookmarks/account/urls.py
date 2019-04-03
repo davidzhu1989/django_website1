@@ -13,5 +13,10 @@ urlpatterns = [
     # 使用系统自带的登录和登出视图
     path('login', auth_views.LoginView.as_view(), name='login'),
     path('logout', auth_views.LogoutView.as_view(), name='logout'),
-    path('', views.dashboard, name="dashboard")
+    path('', views.dashboard, name="dashboard"),
+    # passwordChangeView 渲染修改密码的页面和表单
+    path('password_change', auth_views.PasswordChangeView.as_view(), name='password_change'),
+    # change_done表示修改密码成功后显示消息
+    path('password_change/done', auth_views.PasswordChangeDoneView.as_view(), name="password_change_done"),
+
 ]

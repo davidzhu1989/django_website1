@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../bookmarks/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmarks/account/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookmarks/question.md" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmarks/question.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/问题.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/问题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="46">
-                <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <first_editor relative-caret-position="280">
+                <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -440,7 +439,7 @@
       <workItem from="1554143947946" duration="1613000" />
       <workItem from="1554146320300" duration="1283000" />
       <workItem from="1554255991939" duration="221000" />
-      <workItem from="1554256273795" duration="413000" />
+      <workItem from="1554256273795" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary="普通的微博展示功能">
       <created>1553881687628</created>
@@ -554,14 +553,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554133833430</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="mysite的 问题.md">
+      <created>1554256729839</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554256729839</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76421000" />
+    <option name="totallyTimeSpent" value="76467000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="6" width="1382" height="360" extended-state="0" />
+    <frame x="-12" y="6" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27549466" />
@@ -648,7 +654,8 @@
     <MESSAGE value="更换数据库， 从sqlite到postgres" />
     <MESSAGE value="搜索提供" />
     <MESSAGE value="搜索权重" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索权重" />
+    <MESSAGE value="mysite的 问题.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysite的 问题.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mysite$PY.coverage" NAME="定义一个函数找出所有的PY文件路径 Coverage Results" MODIFIED="1553764522246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../pygorithm/Python-basic/一些基本题目" />
@@ -869,8 +876,8 @@
     <entry file="file://$PROJECT_DIR$/问题.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <first_editor relative-caret-position="280">
+            <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
