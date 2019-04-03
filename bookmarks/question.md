@@ -22,7 +22,7 @@ novalidate 属性规定当提交表单时不对其进行验证。
 > 关于url栏的问题
 
 
-```python
+```
 path("reset/<uidb64>/<token>/",)
 ```
 把uidb64 写出了uid64，导致系统500，
