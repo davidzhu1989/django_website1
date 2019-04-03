@@ -24,5 +24,7 @@ urlpatterns = [
     path('reset/<uidb64>/<token>/', auth_views.PasswordResetConfirmView.as_view(), name="password_reset_confirm"),
     path('reset/done/', auth_views.PasswordResetDoneView.as_view(), name="password_reset_complete"),
     # 用户注册
-    path('register/', views.register, name='register')
+    path('register/', views.register, name='register'),
+    #用户编辑
+    path('edit/', views.edit, name='edit')
 ]

@@ -27,3 +27,9 @@ path("reset/<uidb64>/<token>/",)
 ```
 把uidb64 写出了uid64，导致系统500，
 说明变量自己跟系统一致的重要性
+
+> instance 用于指定表单内某个具体的数据对象
+
+> enctype="multipart/form-data"
+ 
+ 用来处理头像的
