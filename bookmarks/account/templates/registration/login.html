@@ -26,4 +26,9 @@
             <a href="{% url 'password_reset' %}">Forgotten your password?</a>
         </p>
     </div>
+    <div class="social">
+        <ul>
+            <li class="google"><a href="{% url 'social:begin' 'google-oauth2' %}">Log in with Google</a> </li>
+        </ul>
+    </div>
 {% endblock %}
